@@ -1,0 +1,156 @@
+.home-area {
+    background-color: #dcfffb;
+}
+
+.title-text {
+    font-family: 'Sacramento', cursive;    
+
+}
+
+.container1 {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.aya-img {
+ display: flex;
+ justify-content: center;
+ margin-bottom: 2rem;
+}
+
+
+.custom-h1 {
+    font-size: 72px !important;
+    margin-top: 5rem !important;
+    margin-bottom: 5rem !important;
+    text-align: center;
+}
+
+.custom-h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    color: #c1e7e3 !important;
+    
+}
+
+
+.p-intro {
+    display: flex;
+    justify-content: center;
+    font-family: 'Indie Flower', cursive;
+    font-weight: lighter;
+    
+
+}
+
+
+hr{
+    border-color: #dabfde !important;
+    width: 50px;
+    border-style: dotted none none !important;
+    border-width: 8px !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+   align-content: center !important;
+   justify-content: center !important;
+   margin: auto !important;
+   margin-top: 3rem !important;
+   margin-bottom: 5rem !important;
+  }
+
+  .my-resume {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+a{
+    text-decoration:none !important;
+    color: #BEADFA!important;
+    }
+
+
+.custom-p {
+   font-weight: bold;
+   color: #84D2C5; 
+   text-align: center;
+}
+
+.contact-me-text {
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-weight: lighter;
+}
+
+.custom-btn {
+    background: #54BAB9 !important; 
+    color: white !important; 
+  }
+
+  .footer-area {
+   background-color: #dcfffb; 
+  }
+  
+  .h2-intro {
+    font-weight: lighter;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+  }
+  /* Add appropriate styling to your text and image */
+  
+
+
+
+
+
+@media(min-width: 319px) and (max-width: 480px) {
+    .fireworks-img {
+    height: 100%;
+    width: 450px;
+    overflow: hidden;
+    text-align: center;  /* align center all inline elements */
+
+    }
+  }
+
+  @media(min-width: 481px) and (max-width: 1200px ){
+    .fireworks-img {
+        height: 100%;
+        width: 450px;
+        overflow: hidden;
+        text-align: center;
+  }
+}
+
+@media(min-width: 1201px) and (max-width: 1600px ){
+    .fireworks-img {
+        height: 100%;
+        width: 450px;
+        overflow: hidden;
+        text-align: center;
+  }
+}
+
+@media(min-width: 1601) {
+    .fireworks-img {
+        height: 100%;
+        width: 450px;
+        overflow: hidden;
+        text-align: center; 
+  }
+}
+
+ @media(max-width: 1234px) {
+    .home-area {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+    }
+ }
+
+
